@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        var course = ["PHP","JAVA","C#","PYTHON","RUBY"]
+        
+        //First Method Removing Data from POINT TO ALL 
+        /* 
+        document.write(course)        
+        course.splice(2) //removing all data from 2Index Result will be PHP , JAVA rest of element will remove
+        */
+
+        //Second Method Removing Data From Desired Place withing Range
+        /*
+        document.write(course)
+        course.splice(2,2) //Removing data from 2nd Index and strat delete counting from 2nd Index as 1st, result will be PHP JAVA PYTHON RUBY;
+        alert(course)
+        */
+
+        //Third Method Inserting data in 2nd index start position
+        /*
+        document.write(course)
+        course.splice(2,0,"ASP.NET", "JavaScript") //Inserting data in 2nd index output will be PHP JAVA ASP.NET ..
+        alert(course)
+        */
+
+        //Fourth Method Inserting & Delete data in 2nd index start position
+        document.write(course)
+        course.splice(2,2,"ASP.NET", "JavaScript") //Inserting & Deleting data in 2nd index 
+        alert(course)
+            
+    
+    
+        
+        // var courses = []
+        // var c1 = prompt("Enter your first Course")
+        // var c2 = prompt("Enter your Second Course")
+        // var c3 = prompt("Enter your Third Course")
+        // var c4 = prompt("Enter your fourth Course")
+        // var c5 = prompt("Enter your fifth Course")
+
+        // courses.push(c1)
+        // courses.push(c2)
+        // courses.push(c3)
+        // courses.push(c4)
+        // courses.push(c5)
+
+        // alert(courses)
+        // courses.splice(2)
+        // alert(courses)
+        
+
+        // courses[0] = prompt("first course",c1)
+        // courses[1] = prompt("first course",c2)
+        // courses[2] = prompt("first course",c3)
+        // courses[3] = prompt("first course",c4)
+        // courses[4] = prompt("first course",c5)
+        
+        //c1 = prompt("first course" +courses[0], courses[0])
+         
+       // alert(courses)
+
+        </script>
+    </head>
+</html>
